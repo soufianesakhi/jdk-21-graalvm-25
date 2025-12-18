@@ -22,4 +22,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: soufianesakhi/jdk-21-graalvm-25:latest
+          tags: |
+            soufianesakhi/jdk-21-graalvm-25:latest
+            soufianesakhi/jdk-21-graalvm-25:v1.0.0
